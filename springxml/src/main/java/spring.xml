@@ -5,6 +5,7 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans.xsd
 http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
+	<!--id and reference variable name is same--> 
 	<bean id="engine" class="test.springxml.AltoEngine" />
 	<bean id="carid" class="test.springxml.Alto" autowire="byName">
 		<property name="milage" value="60" />
